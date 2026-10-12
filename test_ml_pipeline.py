@@ -55,7 +55,7 @@ class TestMLPipeline(unittest.TestCase):
         self.assertEqual(int(result[0]), 0)
 
     def test_accuracy_is_valid(self):
-        self.assertGreaterEqual(self.accuracy, 0.0)
+        self.assertGreaterEqual(self.accuracy, 1.0)
         self.assertLessEqual(self.accuracy, 1.0)
 
 
